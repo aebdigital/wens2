@@ -42,3 +42,9 @@ next-env.d.ts
 
 # legacy
 legacy/
+
+# cloudflare
+/.open-next/
+/.wrangler/
+.dev.vars*
+cloudflare-env.d.ts
