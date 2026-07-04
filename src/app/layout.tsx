@@ -1,3 +1,4 @@
+import JsonLd from "../components/JsonLd";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
@@ -116,6 +117,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${montserrat.variable} font-sans antialiased`}>
+        <JsonLd />
         <GoogleAnalytics />
         <SmoothScroll />
         <ScrollProgress />
