@@ -48,3 +48,7 @@ legacy/
 /.wrangler/
 .dev.vars*
 cloudflare-env.d.ts
+.env.local
+.env*.local
+.wrangler/
+.open-next/
